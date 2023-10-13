@@ -1,12 +1,13 @@
-
+import Image from "next/image"
 
 const Invoice = () =>{
-    let status = 'Pending'
+    let status = 'Completed'
     return (
         <>
             <div className="rounded-xl w-[85%] flex flex-col items-center py-4 px-3 h-32 bg-[#F2F2F2]">
                 <div className="w-full grid grid-cols-12 items-center">
-                    <div className="w-14 h-14 rounded-md bg-yellow-200 col-span-2">
+                    <div className="w-14 h-14 rounded-m col-span-2">
+                        <Image src={`/${status}.svg`}></Image>
                     </div>
                     <div className="col-span-7 text-black">
                         <h6 className="font-semibold text-2xl">One-month Subscription</h6>
@@ -19,7 +20,7 @@ const Invoice = () =>{
                     <></>
 
                 </div>
-                <hr className="text-black" />
+                <hr className="text-black" size='10px' />
                 <div className="w-full text-center">
                     <p className="text-slate-500 text-lg">Attendance V</p>
                 </div>

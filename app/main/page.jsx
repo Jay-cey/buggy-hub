@@ -1,4 +1,5 @@
-import Invoice from "../component/invoice"
+import Invoice from "../component/invoice";
+import react from "react";
 
 const main = () => {
     const user = "Victor";
