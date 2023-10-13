@@ -31,13 +31,15 @@ const main = () => {
             </div>
 
 
-            <div className="w-full bg-white rounded-2xl mt-6 flex flex-col items-center h-72 space-y-6">
+            <div className="w-full bg-white rounded-2xl mt-6 pb-12 flex flex-col items-center overflow-y-auto space-y-6">
                 <div className="bg-[#E3E3E3] w-[85%] py-1 rounded-xl flex justify-center px-2 mt-12 h-12">
                     <button className="w-1/2 py-3 bg-white rounded-md text-[#535353] leading-none">Sit Available</button>
                     <button className="w-1/2 py-3 bg-inherit rounded-md text-[#796FAB] leading-none">invoice</button>
                 </div>
 
-                <Invoice />
+                    <Invoice status={"Pending"} />
+                    <Invoice status={"Ongoing"} />
+                    <Invoice status={"Completed"} />
             </div>
         </div>  
         {/* <div className="w-full bg-[#F2F2F2] rounded-3xl my-10 col-span-6 col-start-3 ml-20 z-20"> */}
