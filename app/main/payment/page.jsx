@@ -4,9 +4,11 @@ import Link from "next/link"
 const page = () => {
   return (
     <div className="w-full bg-[#F2F2F2] rounded-3xl my-10 col-span-6 col-start-3 ml-20 z-20">
-        <div className="flex justify-center mt-5 w-4/5 mx-auto">
-            <Link href={"/main"}><Image src='/arrow.svg' width={12} height={12} ></Image></Link>
-            <h2 className="font-medium text-2xl justify-self-start">Payment</h2>
+        <div className="flex mt-5 w-4/5 mx-auto items-center ">
+            <div className="w-2/5">
+                <Link href={"/main"}><Image src='/arrow.svg' width={12} height={12} className="float-left"></Image></Link>
+            </div>
+            <h2 className="font-medium text-2xl justify-self-center">Payment</h2>
         </div>
         <form className="text-left flex flex-col justify-center mb-7 w-4/5 mx-auto gap-y-2">
             <div className="flex items-center space-x-5">
