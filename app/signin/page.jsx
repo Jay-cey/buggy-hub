@@ -17,7 +17,11 @@ const page = () => {
                                 <input type="email" name="" id="email" placeholder="victortimi123@gmail.com" className="bg-[#DCE0E1] px-3 py-3 rounded-md w-full " />
                                 <label for="password" className="text-xs font-semibold leading-none mt-1">Password</label>
                                 <input type="password" name="" id="password" placeholder="************" className="bg-[#DCE0E1] px-3 py-3 rounded-md w-full " />
-                                <button className="bg-[#796FAB] w-3/4 place-self-center text-white py-2 text-xs rounded-md mt-5">SIGN IN</button>
+
+                                {/* Link is for demo purposes */}
+                                <Link href="/invoice">
+                                    <button className="bg-[#796FAB] w-3/4 place-self-center text-white py-2 text-xs rounded-md mt-5">SIGN IN</button>
+                                </Link>
                             </form>
                         </div>
                         <p className="text-xs font-bold mt-3">Don't have an account? <Link href="/signup" className="text-[#E5AA2D]">Sign Up</Link></p>
