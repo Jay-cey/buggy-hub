@@ -54,7 +54,9 @@ const page = () => {
                     <p>Duration of subscription</p>
                     <p><span>30</span> days</p>
                 </div>
-                <button className="bg-[#796FAB] w-4/5 place-self-center text-white py-2 text-xs rounded-md mt-4">Proceed</button>
+                <Link href="/main/payment/invoice">
+                    <button className="bg-[#796FAB] w-4/5 place-self-center text-white py-2 text-xs rounded-md mt-4">Proceed</button>
+                </Link>
             </div>
         </form>
     </div>

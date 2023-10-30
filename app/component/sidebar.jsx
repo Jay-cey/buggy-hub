@@ -20,12 +20,12 @@ const Sidebar = () => {
                 <Image src='/profile.svg' height={20} width={20} className="inline"></Image>
                 <span>Edit Profile</span>
               </Link>
-              <Link href={'/payment'} className="space-x-3 text-xs">
+              <Link href={'/main/payment'} className="space-x-3 text-xs">
                 <Image src='/payment.svg' height={20} width={20} className="inline" />
                 <span>Payment</span>
               </Link>
               <hr className="" />
-              <Link href={'/booking'} className="space-x-3 text-xs">
+              <Link href={'/main/booking'} className="space-x-3 text-xs">
                 <Image src='/gifts.svg' height={20} width={20} className="inline" />
                 <span>Book For Meeting</span>
               </Link>

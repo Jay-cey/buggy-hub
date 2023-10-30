@@ -46,9 +46,11 @@ const Invoice = () => {
                     
 
                     <div className="my-5">
+                    <Link href="/main/payment/invoice/receipt">
                         <button className="rounded-md w-full h-14 bg-[#796FAB] text-white">
                             Download Receipt as PDF
                         </button>
+                    </Link>
                     </div>
                 </div>
             </div>
