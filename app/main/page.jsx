@@ -20,14 +20,14 @@ const main = () => {
                             <span>Minutes</span>
                         </p>
                     </div>
-                    <div className="w-1/2 bg-white bg-opacity-25 rounded-md backdrop-blur-[26px] h-fit px-4 py-2 mt-5">
-                        <h6 className="text-xs">Free Days Bonus</h6>
+                    <div className="w-1/2 bg-white bg-opacity-25 rounded-md backdrop-blur-[26px] h-fit px-4 py-2 mt-5 space-y-2">
+                        <h6 className="text-[.6rem]">Free &nbsp; Days &nbsp; Bonus</h6>
                         <div className="flex space-x-2">
-                            <p className="text-xl font-bold text-center">00<span className="block text-xs font-normal">Days</span></p>
+                            <p className="text-xl font-bold text-center">00<span className="block text-[.7rem] font-normal leading-none">Days</span></p>
                             <span className="text-xl font-bold">:</span>
-                            <p className="text-xl font-bold text-center">00<span className="block text-xs font-normal">Hours</span></p>
+                            <p className="text-xl font-bold text-center">00<span className="block text-[.7rem] font-normal leading-none">Hours</span></p>
                             <span className="text-xl font-bold">:</span>
-                            <p className="text-xl font-bold text-center">00<span className="block text-xs font-normal">Minutes</span></p>
+                            <p className="text-xl font-bold text-center">00<span className="block text-[.7rem] font-normal leading-none">Minutes</span></p>
                         </div>
                     </div>
                 </div>

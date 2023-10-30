@@ -19,8 +19,8 @@ const page = () => {
                                 <input type="password" name="" id="password" placeholder="************" className="bg-[#DCE0E1] px-3 py-3 rounded-md w-full " />
 
                                 {/* Link is for demo purposes */}
-                                <Link href="/invoice">
-                                    <button className="bg-[#796FAB] w-3/4 place-self-center text-white py-2 text-xs rounded-md mt-5">SIGN IN</button>
+                                <Link href="/main" className="place-self-center w-3/4">
+                                    <button className="bg-[#796FAB] w-full place-self-center text-white py-2 text-xs rounded-md mt-5">SIGN IN</button>
                                 </Link>
                             </form>
                         </div>
