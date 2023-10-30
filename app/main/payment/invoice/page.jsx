@@ -6,7 +6,7 @@ const Invoice = () => {
         <div className="w-full bg-white rounded-3xl my-10 col-span-6 col-start-3 ml-20 z-20 flex justify-center py-8">
         <div className="w-4/5">
             <div className="float-left">
-                <Link href={"/payment"} className="flex gap-4 "><Image src='/arrow.svg' width={12} height={12} ></Image>Back</Link>
+                <Link href={"/main/payment"} className="flex gap-4 "><Image src='/arrow.svg' width={12} height={12} ></Image>Back</Link>
             </div>
             <div className="mt-10 mb-5 px-8 py-7 bg-[#F2F2F2] rounded-lg">
                 <div className="flex justify-between">

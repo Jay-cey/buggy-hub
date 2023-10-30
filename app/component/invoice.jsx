@@ -4,7 +4,7 @@ import Image from "next/image";
 import Attendance from './attendance';
 
 const Invoice = ({status}) => {
-    const [isOpen, setIsOpen] = useState(false); // Add this line
+    const [isOpen, setIsOpen] = useState(false);
 
     const handleClick = () => {
         setIsOpen(!isOpen);
