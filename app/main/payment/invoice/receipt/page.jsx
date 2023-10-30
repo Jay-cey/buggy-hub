@@ -6,7 +6,7 @@ const Receipt = () => {
         <div className="w-full bg-[#EFF6F8] rounded-3xl my-10 col-span-6 col-start-3 ml-20 z-20 flex justify-center pt-8">
             <div className="w-4/5">
                 <div>
-                    <Link href={"/main"}><Image src='/arrow.svg' width={12} height={12} ></Image></Link>
+                    <Link href={"/invoice"}><Image src='/arrow.svg' width={12} height={12} ></Image></Link>
                 </div>
 
                 <div className="mt-7">
